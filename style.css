@@ -1,0 +1,312 @@
+*,
+*::before,
+*::after {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+a {
+	text-decoration: none;
+}
+ul,
+ol,
+li {
+	list-style: none;
+}
+img {
+	vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+html,
+body {
+	height: 100%;
+	line-height: 1;
+	background: #fafafa;
+	font-size: 14px;
+	color: #252b42;
+	font-weight: 500;
+}
+.wrapper{
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+	overflow: hidden;
+	background-color:rgb(245, 239, 239);
+}
+._container{
+max-width: 1300px;
+padding: 0px 15px;
+margin: 0px auto;
+box-sizing: content-box;
+}
+._ibg{
+	position: relative;
+}
+._ibg img{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	object-fit: cover;
+}
+/*---------------------------------HEADER-------------------------------------------*/
+.header {
+	position: absolute;
+	margin: 0px -15px;
+	width: 100%;
+	left: 0;
+	top: 0;
+	z-index: 50;
+
+}
+.header_container {
+	display: flex;
+	justify-content: space-between;
+	min-height: 80px;
+	align-items: center;
+}
+
+.header__logo {
+	font-size: 28px;
+	font-weight: 800;
+	color: rgb(57, 151, 99);
+}
+.header__menu {
+	margin: 0px 0px 0px 133px;
+}
+.menu {
+}
+.menu__list {
+	display: flex;
+	flex-wrap: wrap;
+}
+.menu__item {
+	margin: 0px 0px 0px 21px;
+}
+
+.menu__link {
+	line-height: calc(24/14*100%);
+	font-weight: 600;
+	font-size: 18px;
+	color: white;
+}
+/*----------------------------MAIN--------------------------------*/
+.page{
+flex: 1 1 auto;
+}
+
+.page__main-block {
+
+}
+.main-block {
+	position: relative;
+}
+.main-block__container {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.main-block__body {
+padding: 190px 0px 190px 0px;
+top:80px;
+left: 0;
+position: relative;
+z-index: 2;
+margin: 0px 0px 120px 0px;
+
+}
+.main-block__body-board{
+	padding: 20px;
+	background-color: rgb(90, 46, 17);
+	border-radius: 10%;
+
+}
+.main-block__photo  {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.main-block__photo img {
+	margin: -90px 0px 30px 0px;
+	align-items: center;
+	border-radius: 50%;
+	border:  8px rgb(57, 151, 99) solid;
+	box-shadow: 0px 0px 5px 10px rgba(28, 85, 55, 0.788) ;
+
+
+}
+.main-block__title {
+	font-weight: 800;
+	font-size: 18px;
+	align-items: center;
+	line-height: 150%;
+
+	color: white;
+}
+.main-block__info {
+	color: white;
+	line-height: 150%;
+	text-align: center;
+	font-size: 18px;
+
+}
+.main-block__image{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+/*-------------------------------BIOGRAPHY-------------------------*/
+.biogrphy {
+}
+.biography__container {
+}
+
+.biography__body {
+	text-align: center ;
+	margin: 0px 0px 20px 0px;
+}
+.personal-data{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.biography__personal-data {
+	display: flex;
+	flex-wrap: wrap;
+
+}
+.about-me{
+	font-size: 28px;
+	font-weight: 700;
+}
+.info__name {
+	text-align: left;
+	font-weight: 600;
+	line-height: 150%;
+	padding: 10px 30px 10px 10px;
+
+
+}
+.info-name {
+}
+.info__value {
+	line-height: 150%;
+	text-align: left;
+	padding: 10px 30px 10px 10px;
+}
+.info__value-freelance {
+}
+.biography__interests {	
+	margin: 0px -15px;
+
+}
+.biography__interests >*:not(:last-child) {	
+	margin: 5px;
+
+}
+.my-interests{
+
+}
+.bio_int{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+}
+.biography__interests__body {
+	padding: 0px 15px;
+	width: 100%;
+
+}
+.games {
+	background-color: rgb(90, 46, 17);
+	padding: 15px;
+	width: 100%;
+	border-radius: 10px;
+	text-align: center;
+	color: #fafafa;
+}
+.music {
+	background-color: rgb(90, 46, 17);
+	padding: 15px;
+	text-align: center;
+	color: #fafafa;
+	border-radius: 10px;
+
+}
+.travel {
+	background-color: rgb(90, 46, 17);
+	padding: 15px;
+	text-align: center;
+	color: #fafafa;
+	border-radius: 10px;
+
+}
+.coffee {
+	background-color: rgb(90, 46, 17);
+	padding: 15px;
+	text-align: center;
+	color: #fafafa;
+	border-radius: 10px;
+
+}
+.cars {
+	background-color: rgb(90, 46, 17);
+	padding: 15px;
+	text-align: center;
+	color: #fafafa;
+
+	border-radius: 10px;
+
+}
+.money {
+	background-color: rgb(90, 46, 17);
+	padding: 15px;
+	text-align: center;
+	color: #fafafa;
+	border-radius: 10px;
+
+}
+.biography__body2 {
+	
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	line-height: 150%;
+	font-size: 15px;
+
+}
+.biography__body2-education {
+	
+
+}
+.edu {
+}
+.edu_li {
+}
+.biography__body2-experience {
+	
+
+}
+.job {
+}
+.job__li {
+}
+/*----------------------------FOOTER--------------------------------*/
+.footer{
+
+}
