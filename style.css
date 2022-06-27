@@ -306,6 +306,45 @@ margin: 0px 0px 120px 0px;
 }
 .job__li {
 }
+/*-----------------------MY PROJECTS--------------------------------*/
+.my-projects {
+}
+.my-projects__container {
+}
+
+.my-projects__body {
+	display: flex;
+	margin: 0 -15px;
+}
+.my-projects__column {
+	padding: 0 15px;
+	flex: 0 1 33.333%;
+}
+.my-projects__item {
+	box-shadow: 0px 13px 10px rgba(0,0,0,0.07);
+	background-color: rgb(230, 225, 225);
+	padding: 35px;
+}
+._item {
+
+}
+._item > *:not(:last-child){
+margin: 0px 0px 15px 0px;
+}
+.item__icon {
+}
+.item__title {
+
+font-size: 22px;
+font-weight: 600;
+letter-spacing: 0.2;
+}
+.todo {
+}
+.carousel {
+}
+.tetris {
+}
 /*----------------------------FOOTER--------------------------------*/
 .footer{
 
